@@ -18,7 +18,7 @@
 ## パッケージをインストール
 
 ```
-npm run install
+npm install
 ```
 
 ## サーバーを起動
