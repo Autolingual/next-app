@@ -1,0 +1,29 @@
+{
+  "name": "@autolingual/next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "PORT=1881 pnpm with-env next build",
+    "dev": "PORT=1881 pnpm with-env next dev",
+    "lint": "next lint",
+    "start": "next start",
+    "with-env": "dotenv -c $APP_ENV --"
+  },
+  "dependencies": {
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "dotenv": "^16.4.7",
+    "dotenv-cli": "^8.0.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
